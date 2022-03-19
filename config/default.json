@@ -1,4 +1,6 @@
 {
  "mongoURI": "mongodb+srv://Anmol_Aggarwal:anmol2507@devconnector.nlymo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" ,
- "jwtSecret": "mysecrettoken"
+ "jwtSecret": "mysecrettoken",
+ "githubClientId": "d635faa3dd20ecbb7de5",
+ "githubSecret": "d6de952479b4ae3dac10b1adf3390f28dc540b4d"
 }
