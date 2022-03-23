@@ -1,11 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from './Navbar'
 
 function Landing() {
   return (
-    <>
-    <Navbar/>
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
@@ -15,13 +12,16 @@ function Landing() {
             other developers
           </p>
           <div className="buttons">
-            <Link to='/register' href="register.html" className="btn btn-primary">Sign Up</Link>
-            <Link to='/login' href="login.html" className="btn btn-light">Login</Link>
+            <Link to="/register" className="btn btn-primary">
+              Sign Up
+            </Link>
+            <Link to="/login" className="btn btn-light">
+              Login
+            </Link>
           </div>
         </div>
       </div>
     </section>
-    </>
   )
 }
 
