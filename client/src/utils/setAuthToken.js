@@ -1,12 +1,12 @@
-import axios from "axios";
+import axios from 'axios';
 
-const setAuthtoken  = token => {
-  if(token){
+const setAuthToken = token => {
+  if (token) {
     axios.defaults.headers.common['x-auth-token'] = token;
-  }
-  else{
+  } else {
+    console.log("tokken problem");
     delete axios.defaults.headers.common['x-auth-token'];
   }
-}
+};
 
-export default setAuthtoken
+export default setAuthToken;
