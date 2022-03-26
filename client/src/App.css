@@ -577,10 +577,8 @@ button {
 }
 
 .alert-wrapper {
-  text-align: center;
   position: fixed;
   top: 4rem;
-  right: 20rem;
-  width: 30%;
+  right: 2rem;
   display: inline-block;
 }
